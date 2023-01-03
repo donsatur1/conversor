@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script&family=Montserrat:wght@100;300;400&family=Permanent+Marker&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h2>Conversor de unidades a distancia</h2>
+      <div class="fila">
+        <span>Convertir de</span>
+        <select name="unidad1" id="unidad1">
+          <option value="Kilometro">Kilometro</option>
+          <option value="Metro">Metro</option>
+          <option value="Centimetro">Centimetro</option>
+        </select>
+        <span> a </span>
+        <select name="unidad2" id="unidad2">
+          <option value="Kilometro">Kilometro</option>
+          <option value="Metro">Metro</option>
+          <option value="Centimetro">Centimetro</option>
+        </select>
+      </div>
+
+      <input type="number" id="valor" placeholder="Valor" />
+      <div class="resultado" id="resultado">--</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
